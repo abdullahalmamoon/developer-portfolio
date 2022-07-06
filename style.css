@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: orange;
 }
@@ -27,7 +31,7 @@ h1 {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(tomato, orangered);
+    background-image: linear-gradient(tomato, coral);
     color: white;
     font-weight: 700;
     padding: 10px 40px;
@@ -43,4 +47,32 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 2px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer P {
+    text-align: center;
 }
