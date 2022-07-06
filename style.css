@@ -7,12 +7,13 @@ h1 {
     font-size: 50px;
 }
 
-.tomato-color {
-    color: tomato;
+.orange-color {
+    color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -26,14 +27,20 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, brown);
+    background-image: linear-gradient(tomato, orangered);
     color: white;
     font-weight: 700;
     padding: 10px 40px;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.drem-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
